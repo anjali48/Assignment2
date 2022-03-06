@@ -5,3 +5,8 @@ def sort_list_last(tuples):
 print(sort_list_last([(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]))
 [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
 
+
+d={}
+for i in range(ord("a"),ord("z")+1):
+    d[chr(i)]=1
+print(d)
